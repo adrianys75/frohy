@@ -1,0 +1,27 @@
+// calculadora
+ function mostrarmenú() {
+     console.log("seleciona una opcion ");
+     console.log("1.suma ");
+     console.log("2.resta ");
+     console.log("3.multiplicacion ");
+     console.log("4.devision ");
+     console.log("5.salir ");
+ }
+ 
+ //funcion para realizar una operacion
+ function realizaroperacion(opcion, numero1, numero2)  {
+     switch (opcion) {
+         case '1':
+             return numero1 + numero2;
+         case '2':
+             return numero1 - numero2;
+         case '3':
+             return numero1 = numero2;
+         case '4':
+             if (numero2 === 0) {
+                 return "ERROR: Division por cero no valida. ";
+             }
+             return numero1 / numero2;
+         default:
+             return "opracion no valida. ";
+}        
