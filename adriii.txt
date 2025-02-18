@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include<iostream>
+using namespace std;
+
+int main() {
+    int numero1,numero2,numero3,numero4,numero5,promedio = 0;
+    cout<<"valor1:";cin>>numero1;
+    cout<<"valor2:";cin>>numero2;
+    cout<<"valor3:";cin>>numero3;
+    cout<<"valor4:";cin>>numero4;
+    cout<<"valor5:";cin>>numero5;
+	promedio=(numero1+numero2+numero3+numero4+numero5)/5;
+    cout<<"promedio:"<<promedio<<endl;
+    
+    return 0;
+}
